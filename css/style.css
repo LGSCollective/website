@@ -30,6 +30,13 @@ header {
     padding: 40px 20px;
 }
 
+.logo {
+    max-width: 150px; /* Limits size on desktop (adjust 150px larger/smaller as needed) */
+    width: 100%;      /* Allows it to shrink fluidly on small screens */
+    height: auto;     /* Maintains the original proportions without stretching */
+    display: block;   /* Removes unwanted inline space below the image */
+    margin: 0 auto 15px auto; /* Centers the image and adds space above the title */
+}
 header h1 {
     color: var(--navy);
     font-size: 3rem;
