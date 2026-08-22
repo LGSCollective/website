@@ -134,6 +134,20 @@ footer {
     background: var(--navy);
     color: white;
     text-align: center;
-    padding: 25px;
+    padding: 30px 20px;
     margin-top: 40px;
+}
+
+.copyright {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer-disclaimer {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.75); /* Softens the text to lower visual dominance */
+    max-width: 800px;                  /* Keeps long text bounded for easy reading */
+    margin: 0 auto;
+    line-height: 1.5;
 }
