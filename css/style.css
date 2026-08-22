@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    background: white;
+    background: var(--background);
     border-bottom: 4px solid var(--gold);
     text-align: center;
     padding: 40px 20px;
@@ -36,7 +36,9 @@ header {
     height: auto;     /* Maintains the original proportions without stretching */
     display: block;   /* Removes unwanted inline space below the image */
     margin: 0 auto 15px auto; /* Centers the image and adds space above the title */
+    mix-blend-mode: multiply; /* Blends out the white square background on the logo image */
 }
+
 header h1 {
     color: var(--navy);
     font-size: 3rem;
