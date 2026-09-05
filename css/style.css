@@ -39,6 +39,16 @@ header {
     mix-blend-mode: multiply; /* Blends out the white square background on the logo image */
 }
 
+.photo {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 header h1 {
     color: var(--navy);
     font-size: 3rem;
