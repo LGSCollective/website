@@ -49,6 +49,20 @@ header {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.photo-caption {
+    text-align: center;
+    font-size: 1.15rem; /* Larger than a typical fine-print caption */
+    font-weight: 500;
+    color: var(--navy);
+    margin-top: 15px;
+    margin-bottom: 30px;
+    list-style: none; /* Removes the bullet points for a cleaner look */
+}
+
+.photo-caption li {
+    margin-bottom: 5px;
+}
+
 header h1 {
     color: var(--navy);
     font-size: 3rem;
